@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, StaticQuery, graphql } from 'gatsby'
-import { FaInstagram, FaBehance, FaDribbble } from 'react-icons/fa'
+import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa'
 import styled from 'styled-components'
 import config from '../../config/website'
 
@@ -108,18 +108,18 @@ const Navigation = () => (
         </Name>
         <SocialMedia>
           <a
-            href="https://www.instagram.com/lekoarts.de"
+            href="https://www.instagram.com/webappseed"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
             <FaInstagram />
           </a>
-          <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer" aria-label="Behance">
-            <FaBehance />
+          <a href="https://www.facebook.com/webappseed" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+            <FaFacebook />
           </a>
-          <a href="https://dribbble.com/LeKoArts" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
-            <FaDribbble />
+          <a href="https://twitter.com/webappseed" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
+            <FaTwitter />
           </a>
         </SocialMedia>
       </Wrapper>

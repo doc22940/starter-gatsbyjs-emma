@@ -1,3 +1,2 @@
 User-agent: *
-
-sitemap: https://emma.lekoarts.de/sitemap.xml
+Allow: /
